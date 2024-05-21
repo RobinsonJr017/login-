@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poetsen One", sans-serif;
 }
 body{
     background-color: black;
@@ -48,6 +49,7 @@ a{
     border: 2px solid #ffffff;
     background-color: transparent;
     cursor: pointer;
+    border-radius: 10px;
 }
 .button:active{
     transform: scale(0.98);
@@ -66,6 +68,9 @@ a{
     padding: 25px;
     border-radius: 12px;
     box-shadow: rgb(0, 0, 0, 0.1);
+}
+.signup_form{
+    display: none;
 }
 .form_close{
     position: absolute;
@@ -105,10 +110,11 @@ a{
     top: 50%;
     transform: translateY(-50%);
     font-size: 20px;
-    color: #707070;
+    color: #69c017;
 
 }
-.input_box i.email, .input_box i.pasword{
+.input_box i.email, 
+.input_box i.pasword{
     left: 0;
 }
 
@@ -120,6 +126,9 @@ a{
 .input_box i.pw_hide{
     right: 0;
     font-size: 18px;
+}
+.input_box i.pw_hide{
+    left: 0;
 }
 .option_field{
     margin-top: 14px;
